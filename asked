@@ -1,0 +1,9 @@
+Questions on git tag.
+
+Imagine you are part of a development team with 5-7 different engineers, each actively working on their own feature branches. Your team is tasked with deploying code to a client's production environment without causing any disruptions or breaking the existing system. Your goal is to ensure a smooth and controlled deployment process.
+
+What are Git tags, and how do they differ from branches?
+ How can Git tags help in managing and tracking deployments?
+ How would you use Git tags to ensure a stable and reliable deployment to the client's production environment?
+ What steps should your team take to ensure that the client's production environment remains unaffected by ongoing development?
+Provide a clear and detailed explanation of your deployment strategy, highlighting the role of Git tags in this process. Use real-world examples or scenarios to illustrate your points. Your response should showcase a strong understanding of Git tags and their practical applications in managing complex development workflows.
