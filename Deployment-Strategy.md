@@ -6,6 +6,7 @@ Managing and Tracking Deployments with Git Tags:
 
 Release Versioning: Tags are often used to version releases, making it easy to track and manage different versions of the codebase.
 Stable References: Tags provide stable references to specific commits, ensuring that the code deployed for a release is consistent and reliable.
+
 Rollback Capability: In case of issues, tags facilitate easy rollback to a known and stable state by checking out the code associated with a specific tag.
 Using Git Tags for Stable Deployments:
 
