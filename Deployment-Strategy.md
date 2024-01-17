@@ -1,5 +1,7 @@
 Definition: Git tags are references to specific points in Git history, usually used to mark release points or stable versions of a project. Unlike branches, tags are static and do not move with new commits.
 Difference from Branches: While both tags and branches are references in Git, branches are dynamic and meant to track ongoing development, allowing new commits to be added. Tags, on the other hand, are fixed references to specific commits and are typically used to mark releases or significant points in the project's history.
+
+
 Managing and Tracking Deployments with Git Tags:
 
 Release Versioning: Tags are often used to version releases, making it easy to track and manage different versions of the codebase.
