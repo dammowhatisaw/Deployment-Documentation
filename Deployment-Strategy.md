@@ -8,18 +8,26 @@ Release Versioning: Tags are often used to version releases, making it easy to t
 Stable References: Tags provide stable references to specific commits, ensuring that the code deployed for a release is consistent and reliable.
 
 Rollback Capability: In case of issues, tags facilitate easy rollback to a known and stable state by checking out the code associated with a specific tag.
+
 Using Git Tags for Stable Deployments:
 
 Release Tags: Tag specific commits that are ready for deployment with a version number or release name.
+
 Deployment Branch: Create a deployment branch from the tagged commit to isolate deployment-related changes.
+
 Testing: Test the deployment branch in a staging environment to catch any potential issues.
+
 Approval: Once testing is successful, promote the deployment branch to production, using the associated tag as a reference.
+
 Ensuring Production Stability:
 
 Tagging Milestones: Tag significant milestones in the project, not just releases, to have stable points to refer to if needed.
 Communication: Maintain open communication within the team regarding ongoing work and potential impacts on the production environment.
+
 Regular Integrations: Encourage regular integration of changes into a shared development branch to identify and resolve conflicts early.
+
 Automated Testing: Implement automated testing in your CI/CD pipeline to catch integration issues before they reach the production environment.
+
 Example Scenario:
 
 Imagine your team is preparing for a major client release. You tag the commit with the finalized features and bug fixes as "v1.0.0."
