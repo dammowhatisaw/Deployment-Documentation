@@ -5,6 +5,7 @@ Difference from Branches: While both tags and branches are references in Git, br
 Managing and Tracking Deployments with Git Tags:
 
 Release Versioning: Tags are often used to version releases, making it easy to track and manage different versions of the codebase.
+
 Stable References: Tags provide stable references to specific commits, ensuring that the code deployed for a release is consistent and reliable.
 
 Rollback Capability: In case of issues, tags facilitate easy rollback to a known and stable state by checking out the code associated with a specific tag.
@@ -22,6 +23,7 @@ Approval: Once testing is successful, promote the deployment branch to productio
 Ensuring Production Stability:
 
 Tagging Milestones: Tag significant milestones in the project, not just releases, to have stable points to refer to if needed.
+
 Communication: Maintain open communication within the team regarding ongoing work and potential impacts on the production environment.
 
 Regular Integrations: Encourage regular integration of changes into a shared development branch to identify and resolve conflicts early.
